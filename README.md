@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+<div align="center">
+  <a href="https://github.com/humanhei/cantek-todo-task">
+    <img src="documentation/dask.svg" alt="Logo" width="80" height="80" style="filter: invert(50%) sepia(43%) saturate(3729%) hue-rotate(161deg) brightness(94%) contrast(101%);">
+  </a>
+  <h1 align="center">Todo List</h1>
+  <p align="center">
+    A simple react app that can add, edit, and delete task list
+  </p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+------
+## About
+[![Todo App Screen Shot][product-screenshot]](https://todo.humanhei.com)
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add any task to the task list
+- Edit the task by double click or press edit button
+- Stored in local storage, so you won't lose your tasks
 
-## Expanding the ESLint configuration
+## Built with
+- [![Typescript][Typescript]][Typescript-url]
+- [![React][React.js]][React-url]
+- [![Vite][Vite.js]][Vite-url]
+- [![Tailwind][Tailwindcss.com]][Tailwindcss-url]
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Prerequisites
+Please first install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). Then, run the following comment
+```bash
+npm install
+```
+### Compiles and hot-reloads for development
+```
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Compiles and minifies for production
+```
+npm run build
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: documentation/snapshot.png
+[Typescript]: https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vite.js]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev/
+[Tailwindcss.com]: https://img.shields.io/badge/tailwind_CSS-06B6D4?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white
+[Tailwindcss-url]: https://tailwindcss.com/
