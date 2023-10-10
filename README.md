@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/humanhei/cantek-todo-task">
-    <img src="documentation/dask.svg" alt="Logo" width="80" height="80" style="filter: invert(50%) sepia(43%) saturate(3729%) hue-rotate(161deg) brightness(94%) contrast(101%);">
+    <img src="documentation/dask.svg" alt="Logo" width="80" height="80">
   </a>
   <h1 align="center">Todo List</h1>
   <p align="center">
